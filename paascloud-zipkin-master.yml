@@ -16,7 +16,7 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: paascloud-mq-rabbit:5672
+      addresses: localhost:15672
       username: guest
       password: guest
       queue: zipkin
