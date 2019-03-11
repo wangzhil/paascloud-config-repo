@@ -14,12 +14,6 @@ spring:
         enabled: true
 
 zipkin:
-  collector:
-    rabbitmq:
-      addresses: localhost:15672
-      username: guest
-      password: guest
-      queue: zipkin
   storage:
     type: mysql
 
