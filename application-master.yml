@@ -64,9 +64,9 @@ spring:
     admin:
       username: admin
       password: admin
-  zipkin:
+  <!-- zipkin:
     rabbitmq:
-      queue: zipkin
+      queue: zipkin -->
   sleuth:
     sampler:
       percentage: 0.2
